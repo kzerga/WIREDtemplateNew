@@ -1,0 +1,128 @@
+/////////////////////////
+
+// FRAMEWORK GRID + FLEXBOX SPECS
+
+/////////////////////////
+
+$gutter: 13px;
+$total-columns: 12;
+
+@function col-width($column-index) {
+  $init-value: ((100% / $total-columns) * $column-index);
+  $final-value: calc( (#{$init-value} - #{$gutter}) + (#{$gutter} / (#{$total-columns} / #{$column-index})));
+  @return $final-value;
+}
+
+.row {
+  @include clearfix;
+  display: flex;
+  flex-direction: vertical;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 0;
+  margin-bottom: 0;
+  max-width: 70.25em;
+
+  // set direction to horizontal
+  &.horizontal {
+    flex-direction: horizontal;
+  }
+
+  // set direction to vertical
+  &.vertical {
+    flex-direction: vertical;
+  }
+
+  // use if your columns are going to go over 100% width
+  // otherwise if columns go over 100% they switch back to proportional to prevent breakage
+  &.wrap {
+    flex-wrap: wrap;
+  }
+
+  [class*='col'] {
+    flex: auto;
+  }
+}
+
+[class*='col'] {
+  margin-right: 0;
+
+  // vertical aligning
+  &.v-align-top {
+    align-self: flex-start;
+  }
+
+  &.v-align-center {
+    align-self: center;
+  }
+
+  &.v-align-bottom {
+    align-self: flex-end;
+  }
+
+  &.stretch {
+    align-self: stretch; // default, fills all vertical space
+  }
+
+}
+
+// turn on horizontal grid for anything wider than this
+@media (min-width: 480px) {
+  // margin-bottom of 13px is just for demoing @TODO remove later
+  .content-block {
+    [class*='col-'] {
+      margin-bottom: 13px;
+    }
+  }
+}
+
+@media (min-width: 728px) {
+  .row {
+    flex-direction: horizontal;
+  }
+
+  [class*='col-'] {
+    float: left;
+    margin-right: $gutter;
+
+    &:last-child {
+      margin-right: 0;
+    }
+  }
+}
+
+// tablet grid
+@media (min-width: 728px) and (max-width: 959px) {
+  @for $i from 1 through $total-columns {
+    .t-col-#{$i} {
+      width: col-width($i);
+    }
+  }
+
+  .t-col-12 {
+    margin: 0;
+  }
+
+}
+
+@media (max-width: 960px) {
+  .row {
+    flex-wrap: wrap;
+  }
+}
+
+// desktop grid
+@media (min-width: 960px) {
+  @for $i from 1 through $total-columns {
+    .d-col-#{$i} {
+      width: col-width($i);
+    }
+  }
+
+  .d-col-12 {
+    margin: 0;
+  }
+}
+
+

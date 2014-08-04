@@ -1,0 +1,38 @@
+.ad-wrap {
+    background: $lightest-gray;
+    display: none;
+    padding: 25px 0;
+    width: 100%;
+    @media (min-width: 480px) {
+        display: block;
+        margin: 0 0 100px 0;
+        z-index: 9;
+    }
+    &#ad-1 {
+        @media (min-width: 480px) {
+            margin: 0 auto;
+        }
+    }
+}
+
+.platon-ad-unit {
+    
+    width: 728px;
+}
+
+.advertisement {
+    background: $lighter-gray;
+    display: block;
+    height: 90px;
+    margin-top:50px;
+    margin-bottom:50px;
+    width: 728px;
+
+}
+
+.radvertisement.wide-post-top {
+    display: none!important;
+}
+
+
+    

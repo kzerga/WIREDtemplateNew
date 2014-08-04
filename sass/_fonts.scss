@@ -1,0 +1,24 @@
+
+
+@font-face {
+    font-family: Oxide;
+    src: url(../font/OxideSolidOT.otf)
+}
+
+@font-face {
+    font-family: Proxima;
+    src: url(../font/ProximaNova-Bold.otf)
+}
+
+
+h1{
+	color:white;
+	font-size:40px;
+	padding-top:100px;
+}
+
+.caption{
+	font-family:$proxima;
+	font-size:14px;
+	color:white;
+}

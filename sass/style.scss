@@ -1,0 +1,43 @@
+@import 'bourbon/bourbon';
+
+$black: #000;
+$white: #fff;
+
+/*/ verticals branding*/
+$business-blue: #0b2d6d;
+$design-lime: #b7da9a;
+$entertainment-orange: #ffbe00;
+$gear-blue: #7dd8f7;
+$science-violet: #4e0a43;
+$security-red: #f25953;
+
+/*/ other colors*/
+$dark-blue: #12679B;
+$blue: #00aeef; // standard blue, maybe kill?
+$light-blue: #b4e7f8; // links
+$yellow: #fdbc27; // nav-bg color
+
+/*/ grays*/
+$dark-gray: #333;
+$gray: #666;
+$light-gray: #999;
+$lighter-gray: #ccc;
+$lightest-gray: #efefef;
+
+/*/ fonts*/
+$brandon: 'brandon-grotesque', sans-serif;
+$exchange: 'Exchange SSm 4r', serif;
+$oxide: 'Oxide', sans-serif;
+$proxima: 'Proxima', Helvetica, Arial, sans-serif;
+//$sentinel:
+
+
+@import 'blankcanvas',
+		'nav',
+		'fadein',
+		'section',
+		'fonts',
+		'footer',
+		'framework',
+		'ads';
+		

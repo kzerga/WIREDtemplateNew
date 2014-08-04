@@ -1,0 +1,214 @@
+%!Adobe-FontList 1.14
+%Locale:0x409
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Type1
+FontName:AmbroiseStdFrancois-Bold
+FamilyName:Ambroise Std Francois
+StyleName:Bold
+MenuName:Ambroise Std Francois
+StyleBits:2
+WeightClass:700
+WidthClass:5
+AngleClass:0
+FullName:AmbroiseStdFrancois-Bold
+WritingScript:Roman
+OutlineFileName:\AmbroiseStdFrancois-Bold.otf
+DataFormat:sfntData
+UsesStandardEncoding:yes
+isCFF:yes
+FileLength:50144
+FileModTime:1402399552
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Type1
+FontName:BrandonText-Bold
+FamilyName:Brandon Text
+StyleName:Bold
+MenuName:Brandon Text Bold
+StyleBits:0
+WeightClass:450
+WidthClass:5
+AngleClass:0
+FullName:Brandon Text Bold
+WritingScript:Roman
+OutlineFileName:\BrandonText-Bold.otf
+DataFormat:sfntData
+UsesStandardEncoding:yes
+isCFF:yes
+FileLength:73508
+FileModTime:1402399555
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Type1
+FontName:ExchangeText-Roman
+FamilyName:Exchange Text
+StyleName:Roman
+MenuName:Exchange Text
+StyleBits:0
+WeightClass:350
+WidthClass:5
+AngleClass:0
+FullName:Exchange Text Roman
+WritingScript:Roman
+OutlineFileName:\ExchangeText-Roman.otf
+DataFormat:sfntData
+UsesStandardEncoding:yes
+isCFF:yes
+FileLength:297876
+FileModTime:1402399562
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Type1
+FontName:ExchangeWeb-Roman
+FamilyName:Exchange Web
+StyleName:Roman
+MenuName:Exchange Web
+StyleBits:0
+WeightClass:325
+WidthClass:5
+AngleClass:0
+FullName:Exchange Web Roman
+WritingScript:Roman
+OutlineFileName:\ExchangeWeb-Roman.otf
+DataFormat:sfntData
+UsesStandardEncoding:yes
+isCFF:yes
+FileLength:64804
+FileModTime:1370332576
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Type1
+FontName:MinionPro-Regular
+FamilyName:Minion Pro
+StyleName:Regular
+MenuName:Minion Pro
+StyleBits:0
+WeightClass:400
+WidthClass:5
+AngleClass:0
+FullName:Minion Pro
+WritingScript:Roman
+OutlineFileName:\MinionPro-Regular.otf
+DataFormat:sfntData
+UsesStandardEncoding:yes
+isCFF:yes
+FileLength:217280
+FileModTime:1399638263
+DesignSize:110
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Type1
+FontName:OxideSolidOT-Bold
+FamilyName:Oxide Solid OT
+StyleName:Bold
+MenuName:OxideSolidOT-Bold
+StyleBits:0
+WeightClass:700
+WidthClass:5
+AngleClass:0
+FullName:OxideSolidOT-Bold
+WritingScript:Roman
+OutlineFileName:\OxideSolidOT-Bold.otf
+DataFormat:sfntData
+UsesStandardEncoding:yes
+isCFF:yes
+FileLength:27480
+FileModTime:1402399608
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Type1
+FontName:OxideSolidOT-Light
+FamilyName:Oxide Solid OT
+StyleName:Light
+MenuName:OxideSolidOT-Light
+StyleBits:0
+WeightClass:350
+WidthClass:5
+AngleClass:0
+FullName:OxideSolidOT-Light
+WritingScript:Roman
+OutlineFileName:\OxideSolidOT-Light.otf
+DataFormat:sfntData
+UsesStandardEncoding:yes
+isCFF:yes
+FileLength:27224
+FileModTime:1402399608
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Type1
+FontName:OxideSolidOT
+FamilyName:Oxide Solid OT
+StyleName:Regular
+MenuName:OxideSolidOT
+StyleBits:0
+WeightClass:400
+WidthClass:5
+AngleClass:0
+FullName:OxideSolidOT
+WritingScript:Roman
+OutlineFileName:\OxideSolidOT.otf
+DataFormat:sfntData
+UsesStandardEncoding:yes
+isCFF:yes
+FileLength:27684
+FileModTime:1402399608
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Type1
+FontName:ProximaNova-Bold
+FamilyName:Proxima Nova
+StyleName:Bold
+MenuName:Proxima Nova Rg
+StyleBits:2
+WeightClass:700
+WidthClass:5
+AngleClass:0
+FullName:Proxima Nova Bold
+WritingScript:Roman
+OutlineFileName:\ProximaNova-Bold.otf
+DataFormat:sfntData
+UsesStandardEncoding:yes
+isCFF:yes
+FileLength:96640
+FileModTime:1402399610
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Type1
+FontName:SurveyorFine-Bold
+FamilyName:Surveyor Fine
+StyleName:Bold
+MenuName:Surveyor Fine Bold
+StyleBits:0
+WeightClass:400
+WidthClass:5
+AngleClass:0
+FullName:Surveyor Fine Bold
+WritingScript:Roman
+OutlineFileName:\SurveyorFine-Bold.otf
+DataFormat:sfntData
+UsesStandardEncoding:yes
+isCFF:yes
+FileLength:133712
+FileModTime:1405590513
+%EndFont
+

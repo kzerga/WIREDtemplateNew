@@ -1,0 +1,82 @@
+.platon-footer{
+	position: absolute;
+	background:#333;
+	height:400px;
+	overflow:hidden;;
+	width: 100%
+}
+
+
+/*Social Media*/
+
+div .footer-social-media{
+	margin-bottom:20px;
+	width:100px;
+	padding-right:5px;
+	background-size:100px 100px;
+	background-repeat:no-repeat;
+	background-position: center top;
+	float:left;
+	height:170px;
+	margin-right:20px;
+	top:100px;
+}
+
+.footer-social-sharing{
+	width:500px;
+	margin:0 auto;
+}
+
+#facebookicon{
+	background-image: url(../images/facebook.png);
+}
+
+#facebookicon:hover{
+	background-image: url(../images/facebookH.png);
+}
+
+#twittericon{
+	background-image: url(../images/twitter.png);
+}
+
+#twittericon:hover{
+	background-image: url(../images/twitterH.png);
+}
+
+#emailicon{
+	background-image: url(../images/email.png);
+}
+
+#emailicon:hover{
+	background-image: url(../images/emailH.png);
+}
+
+#commenticon{
+	background-image: url(../images/comment.png);
+}
+
+#commenticon:hover{
+	background-image: url(../images/commentH.png);
+}
+
+
+/*logo*/
+
+div .footer-logo{
+	margin-bottom:20px;
+	background-size:300px 60px;
+	background-repeat:no-repeat;
+	background-position: center top;
+	width:300px;
+	height:60px;
+}
+
+#wiredlogo{
+	background-image: url(../images/wiredLogo.png);
+	margin:auto;
+	top:50px;
+}
+
+#wiredlogo:hover{
+	background-image: url(../images/wiredLogoH.png);
+}

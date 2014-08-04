@@ -1,0 +1,103 @@
+.blank-canvas-post #shell {
+    width: 100%;
+}
+
+
+.section{
+	margin-top:6000px;
+	background-color: #FFF;
+}
+
+.chapterSlide{
+	position:relative;
+	background-color:white;
+	}
+
+div.wrapper{
+	background:white;
+	padding-bottom:500px;
+	
+}
+
+
+/*font styles*/
+.content-wrapper{
+	width:750px;
+	margin:auto;
+}
+
+.opener{
+	font-family:$exchange;
+	font-size: 22px;
+	line-height: 34px;
+	margin-bottom:50px!important;
+}
+
+
+.lead-line{
+	font-family:$oxide;
+	font-size: 17px;
+	letter-spacing: 1px;
+}
+
+
+.content p{
+	font-family:$exchange;
+	font-size: 18px;
+	line-height: 28px;
+	margin: 0 0 17px !important;
+	width:700px;
+}
+
+
+.width-700{
+	width:700px;
+}
+.width-300{
+	width:300px;
+}
+.width-400{
+	width:400px;
+}
+
+.break-illo{
+	margin:0 auto;
+	width:25%;
+	padding:100px 0;
+}
+
+
+/*Images*/
+
+.inset-image-left{
+	float:left;
+	padding-right:50px;
+	width:400px;
+	margin-left:-150px;
+}
+.inset-left{
+	float:left;
+	padding-right:50px;
+	width:400px;
+	margin-left:-150px;
+}
+
+.inset-right{
+	float: right;
+	padding-left:50px;
+	width: 400px;
+	margin-right:-150px;
+}
+
+.chapter-image{
+	position: relative;
+	width: auto;
+	max-width: inherit;
+}
+
+.image-spacer {
+	max-width: inherit;
+	position: fixed;
+	width: auto;
+	top: 50px;
+}
